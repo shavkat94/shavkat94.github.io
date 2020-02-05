@@ -1,0 +1,83 @@
+header{
+    height: auto;
+    background: none;
+}
+main .bot{
+    width: 100%;
+    height: 100px;
+    background: #007d2f;
+}
+main .bot2{
+    height: 100px;
+}
+main .carousel .carousel-indicators{
+    margin: 0;
+    position: relative;
+}
+main .carousel .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border: none;
+    background: white;
+    margin: 0;
+    margin: 4px 2px;
+    opacity: 1;
+}
+main .carousel .bot .carousel-control-prev{
+    width: auto;
+    position: relative;
+    opacity: 1;
+    justify-content: left;
+}
+main .carousel .bot .carousel-control-next{
+    width: auto;
+    position: relative;
+    opacity: 1;
+    justify-content: left;
+}
+main .carousel .bot i.fa{
+    color: #001106;
+    font-size: 12px;
+}
+main .carousel .bot .carousel-control-prev p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 14px;
+    text-transform: uppercase;    
+}
+main .carousel .bot .carousel-control-next p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 40px;
+    text-transform: uppercase;    
+}
+main .top p{
+    margin-right: 20%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    text-transform: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+main .top h2{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #171717;
+}
+main .top .client{
+    margin-top: 10%;
+}
+main .top .client p{
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+main .top .client p span{
+    font-weight: 700;
+    color: #171717;
+}
+footer{
+    margin-top: 100px;
+}

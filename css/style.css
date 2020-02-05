@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ============================ Header =============================== */
+header{
+    height: 670px;
+    background: url('../rasm/index/jesus-kiteque-wn-KYaHwcis-unsplash.jpg') center bottom;
+    background-size: cover;
+}
+header .navbar .collapse .navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+}
+/* 
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+*/
+header .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 500ms;
+    text-align: center;
+}
+header .navbar .collapse .navbar-nav .active a{
+    color: #007d2f;
+}
+header .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #007d2f;
+}
+header h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 75px 0 35px 0;
+
+}
+header p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+header a.contact{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    padding: 22px 57px 23px 45px;
+    background: #007d2f;
+    text-decoration: none;
+    transition: 500ms;
+
+}
+header a.contact:hover{
+    background: none;
+    color: #007d2f;
+}
+
+
+/* ======================================== ARTICLE ===============================*/
+article h2{
+    font-size: 34px;
+    font-weight: 500;
+    margin: 95px 0 40px 0;
+}
+article p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    margin-bottom: 50px;
+}
+article img{
+    margin-bottom: 40px;
+}
+
+/* =========================================== Main ========================== */
+
+main .top{
+    background: #f8f9f9;
+}
+
+main .top img{
+    width: 100%;
+    height: auto;
+}
+main .top h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 16%;
+}
+main .top p{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+main .top .progress{
+    margin-left: 16%;
+    height: 3px;
+    background: #d8d8d8;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+/* ========================================= News =================== */
+main .news{
+    background: #007d2f;
+    padding: 70px 0 75px 0;
+}
+main .news p{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+main .news p.number{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+main .news .fa{
+    color: white;
+    font-size: 40px;
+}
+
+/* ====================================== IMGS ============================ */
+main .imgs{
+    background: #007d2f;
+}
+main .imgs a{
+    text-decoration: none;
+}
+main .imgs p{
+    padding: 45px 0 40px 0;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+main .imgs .box img{
+    width: 100%;
+    height: auto;
+}
+main .imgs .box .eye{
+    top: 0%;
+    width: 100%;
+    transition: 500ms;
+    min-height: 100%;
+    background: rgba(20, 20, 20, 0.85);
+    transform: scale(0);
+}
+main .imgs .box:hover .eye{
+    transform: scale(1);
+}
+main .imgs .box .eye .fa{ 
+    font-size: 35px;
+    color: white;
+}
+
+/* ========================= work============================== */
+
+main .work h2{
+    font-size: 43px;
+    font-weight: 500;
+    margin: 95px 0 25px;
+}
+main .work p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    margin-bottom: 45px;
+}
+main .work video{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+/* ================================ Icons ============================ */
+main .icons{
+    padding: 100px 0 60px;
+    background: #f5f5f5;
+}
+main .icons .fa{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+main .icons p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    margin: 14px 0 48px 0;
+}
+main .icons a.upper{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+
+/* ======================================= slider======================= */
+
+main .slider .bd-example .carousel{
+    width: 100%;
+    height: 500px;
+    background: #007d2f;
+}
+main .slider p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 195px;
+    margin-bottom: 35px;
+}
+main .slider h3{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+main .slider .bd-example .carousel .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+    background: #b0e8e6;
+
+}
+main .slider .bd-example .carousel .carousel-indicators li.active{
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+}
+
+
+main .bottom img{
+    margin: 65px 0;
+
+}
+
+
+/* ================================ form ========================= */
+form{
+    background: #f5f5f5;
+    padding: 25px 0 100px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+}
+form h2{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;;
+}
+form p{
+    margin-bottom: 40px;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 30px;;
+}
+form textarea{
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 30px;;
+}
+form button{
+    width: 17%;
+    height: 54px;
+    border: none;
+    background: #007d2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* =============================== footer ========================= */
+footer{
+    background: black;
+    padding: 95px 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+footer span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+@media(max-width: 576px){
+    .s-p{
+        font-size: 12px !important;
+    }
+    .s-w{
+        width: 50%;
+    }
+    .skill{
+        font-size: 25px !important;
+    }
+    .s-m{
+        margin: 0% !important;
+    }
+    .s-t{
+        width: 100% !important;
+        text-align: center;
+    }
+    .s-pa{
+        padding: 0%;
+    }
+
+
+}
+@media(max-width: 992px){
+    .colrev{
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+    }
+    .posabs{
+        position: absolute;
+        top: 0%;
+        color: white;
+        background: rgba(20, 20, 20, 0.85);
+        width: 100%;
+        min-height: 100%;
+        transform: scale(0);
+        transition: 500ms;
+    }
+    main .top:hover .posabs{
+        transform: scale(1);
+    }
+    .skill1{
+        font-size: 30px !important;
+    }
+    
+}
+@media(max-width: 767px){
+    .sm-t{
+        padding-top: 15px;
+    }
+    .m-p{
+        padding: 0;
+    }
+}

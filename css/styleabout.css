@@ -1,0 +1,79 @@
+header{
+    height: auto;
+    background: none;
+}
+
+main .news{
+    padding: 60px 0 70px 0;
+}
+main .news p{
+    margin-bottom: 30px;
+}
+main .news p.number{
+    margin: 0%;
+}
+
+main .top1{
+    padding: 100px 0;
+    background: #323232;
+}
+main .top1 h2{
+    font-size: 61px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+main .top1 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0%;
+}
+
+main .top .item{
+    width: 83%;
+}
+main .top img.check{
+    width: 50%;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+main .top p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    text-transform: none;
+}
+
+
+main .article h2{
+    font-size: 30px;
+    margin: 100px 0 40px;
+}
+main .article p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 40px;
+}
+
+main a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    padding: 22px 42px;
+    background: #007d2f;
+    text-decoration: none;
+    transition: 500ms;
+    margin: 0 auto 100px;
+}
+main a:hover{
+    background: none;
+    color: #007d2f;
+}
