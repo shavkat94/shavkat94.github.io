@@ -1,0 +1,342 @@
+/*  */
+*{
+       margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.row{
+    margin: 0 !important;
+}
+header a{
+    padding: 80px 0 50px;
+}
+header a i.fa{
+    font-size: 20px;
+    color: gray;
+}
+header .container-fluid{
+    width: 100%;
+    height: 825px;
+    background: url('../img/paul-trienekens-cYW4ROUmzzQ-unsplash.jpg');
+    background-position: center;
+    display: flex;
+    
+}
+header a img{
+    width: 100%;
+    height: auto;
+}
+header h2{
+    margin: 120px 0 35px;
+    font-size: 50px;
+    font-weight: 100;
+}
+header h2 span{
+    font-weight: 700;
+    color: #011556;
+}
+header p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+header form{
+    display: flex;
+    flex-direction: column;
+    background: white;   
+    padding: 32px 53px 13px 29px; 
+}
+form{
+    margin-top: 105px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #808080;
+}
+form h3{
+    color: #011556;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form .id{
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    margin-top: 25px;
+}
+form button{
+    width: 240px;
+    height: 55px;
+    background: blue;
+    border: none;
+    border-radius: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px !important;
+    margin: auto;
+}
+form button i.fa{
+    color: grey;
+}
+
+/* ======================================== section top ====================== */
+section h2{
+    color: #011556;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 70px 0 195px;
+}
+section.top a{
+    color: #011556;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+section{
+    margin-bottom: 70px;
+}
+
+/* ========================================MAin============================= */
+
+
+main{
+    background-color: #fbfbfb;
+    padding-bottom: 50px;
+}
+main h3{
+    padding: 70px 0 50px;
+    color: #011556;
+    font-size: 50px;
+    font-weight: 900;
+}
+main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Myriad Pro', sans-serif;
+    margin-bottom: 110px;
+    text-align: center;
+}
+main .box{
+    margin-bottom: 24px;
+}
+main .box img{
+    width: 100%;
+    height: auto;
+}
+main .box .buy{
+    top: 0%;
+    width: 100%;
+    transition: 2s;
+    min-height: 100%;
+    background: rgba(174, 172, 184, 0.5);
+    transform: scale(0);
+}
+main .box:hover .buy{
+   transform: scale(1);
+
+}
+main .buy h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center; 
+    padding: 0%;
+    display: block;
+}
+
+main button{
+    margin: 30px auto 0; 
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    width: 50%;
+    height: 50px;
+    background: #011556;
+    border-radius: 24px;
+    border: none;
+}
+
+
+/* ============================================== document========================= */
+section.document{
+    padding-bottom: 250px;
+}
+section.document h2{
+    font-weight: 700;
+    margin-bottom: 60px !important;
+    text-align: center;
+}
+section.document p{
+    font-size: 19px;
+}
+
+
+/* =============================================== Article =============================== */
+
+
+article{
+    background-color: #fbfbfb;
+    padding-bottom: 100px;
+}
+
+article h2{
+    margin: 60px 0 40px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #011556;
+}
+article p{
+    margin-bottom: 120px;
+}
+
+article .price{
+    width: 70%;
+    height: 21%;
+    background: white;
+    position: absolute;
+    top: 84%;
+    left: 17%;
+    box-shadow: 0 0 8px #eeeeee;
+  
+}
+article img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+article .price p{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+}
+article .price p.id{
+    font-size: 22px;
+    font-weight: 500;
+    color: #011556;
+}
+
+/* ============================================ bottom ============================== */
+section.bottom{
+    margin: 0;
+}
+section.bottom h2{
+    margin-bottom: 85px;
+}
+section p.text{
+    margin-bottom: 140px;
+}
+section.bottom .client{
+    padding: 92px 44px 38px 44px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #f5f5f5;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+section.bottom img{
+    position: absolute;
+    top: -15%;
+    left: 39%;
+}
+section.bottom .client p{
+    font-size: 17px;
+}
+section.bottom .client p.name{
+    font-family: 'Myriad Pro', sans-serif;
+}
+section.bottom .client i{
+    font-size: 15px;
+    color: #ffef3b;
+    margin-bottom: 20px;
+}
+
+/* ==================================== Footer ========================= */
+
+
+footer{
+    background-color: #f7f7f7;
+}
+footer button{
+    margin: 30px auto 30px; 
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    width: 50%;
+    height: 50px;
+    background: #011556;
+    border-radius: 24px;
+    border: none;
+}
+footer i{
+    font-size: 22px;
+    padding: 17px;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 50%;
+    color: white;
+    margin-left: 16px;
+    transition: 500ms;
+    margin-bottom: 54px;
+}
+footer i:first-child{
+    padding: 17px 18px;
+}
+footer i:hover{
+    background-color: #011556;
+}
+footer p{
+    font-size: 14px;
+    margin-left: 43px;
+    margin-top: 18px;
+}
+
+@media(max-width: 1200px){
+    .lg-p{
+        font-size: 18px !important;
+        color: red;
+    }
+    .lg-p-id{
+        font-size: 16px !important;
+    }
+}
+@media(max-width: 991px){
+    .lg-p{
+        font-size: 26px !important;
+        color: black;
+    }
+    .lg-p-id{
+        font-size: 22px !important;
+    }
+    .md-m{
+        margin-top: 0 !important;
+    }
+}
+@media(max-width: 767px){
+    .sm-p{
+        font-size: 40px !important;
+    }
+
+}
+@media(max-width: 576px){
+    .s-p{
+        font-size: 30px !important;
+    }
+    .s-pp{
+        font-size: 23px !important;
+    }
+    .s-m{
+        margin: 0;
+    }
+    .s-w{
+        width: 140px;
+        height: 45px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media(max-width: 390px){
+    .sp-p{
+        padding: 0 !important;
+    }
+}
